@@ -1,0 +1,23 @@
+{
+  "name": "lunch-bot",
+  "version": "1.0.0",
+  "description": "A Slack bot to select a lunch place",
+  "main": "lib/lunchbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lunchbot"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "John Kirrane",
+  "license": "ISC",
+  "dependencies": {
+    "slackbots": "^0.5.0",
+    "sqlite3": "^3.1.1"
+  }
+}
